@@ -37,11 +37,10 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse navbar-right">
               <ul class="nav navbar-nav link-effect">
-                <li class="active"><a href="#">Головна</a></li>
-                <li><a href="#about">Головна</a></li>
-                <li><a href="#portfolio">Портфоліо</a></li>
-				<li><a href="#gallery">Галерея</a></li>
-				<li><a href="#contact">Контакти</a></li>
+                <li><a href="#about">Home</a></li>
+                <li><a href="#portfolio">About</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -54,7 +53,7 @@
 	<ul class="rslides" id="slider">
 		<li>
 			<div class="banner-info">
-				<h3>Its My Life</h3>
+				<h3>Front End</h3>
 				<span class="line1"></span>
 				<p>Lorem Ipsum is dummy text.</p>
 				<span class="line2"></span>
@@ -71,7 +70,7 @@
 		</li>
 		<li>
 			<div class="banner-info">
-				<h3>My Passion</h3>
+				<h3>Back End</h3>
 				<span class="line1"></span>
 				<p>Lorem Ipsum is dummy text.</p>
 				<span class="line2"></span>
@@ -88,7 +87,7 @@
 		</li>
 		<li>
 			<div class="banner-info">
-				<h3>My Life Style</h3>
+				<h3>WordPress</h3>
 				<span class="line1"></span>
 				<p>Lorem Ipsum is dummy text.</p>
 				<span class="line2"></span>
@@ -108,13 +107,13 @@
 <!-- /Banner -->
 <!-- About -->
 <div class="about-me" id="about"> 
-	<h3 class="text-center slideanim">Мої навики</h3>
+	<h3 class="text-center slideanim">About my skills</h3>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-xs-12">
 				<div class="mydetails slideanim text-center">
-					<img class="img-circle img-responsive" src="images/me%20short.jpg" alt="Generic placeholder image" width="200" height="300">
-					<h3>Дацко Віктор</h3>
+					<img class="img-circle img-responsive" src="images/man.jpg" alt="Generic placeholder image" width="200" height="300">
+					<h3>Datsko Victor</h3>
 					<p>Web Designer</p>
 					<div class="social-icons">
 						<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -141,22 +140,22 @@
 										<td><p>89%</p></td>
 									</tr>
 									<tr>
-										<td><h4>Multimedia</h4></td>
+										<td><h4>HTML5</h4></td>
 										<td><span class="longline2"></span><span class="shortline2"></span></td>
 										<td><p>90%</p></td>
 									</tr>
 									<tr>
-										<td><h4>After-Effects</h4></td>
+										<td><h4>CSS3</h4></td>
 										<td><span class="longline3"></span><span class="shortline3"></span></td>
 										<td><p>95%</p></td>
 									</tr>
 									<tr>
-										<td><h4>Wordpress</h4></td>
+										<td><h4</h4></td>
 										<td><span class="longline4"></span><span class="shortline4"></span></td>
 										<td><p>92%</p></td>
 									</tr>
 									<tr>
-										<td><h4>HTML5</h4></td>
+										<td><h4>Wordpress</h4></td>
 										<td><span class="longline5"></span><span class="shortline5"></span></td>
 										<td><p>96%</p></td>
 									</tr>
@@ -172,8 +171,8 @@
 <!-- /About -->
 <!-- Portfolio -->
 	<div class="myportfolio" id="portfolio">
-		<h3 class="text-center slideanim">Моє Портфоліо</h3>
-		<p class="text-center slideanim">Мої останні роботи. натисніть щоб дізнатись більше.</p>
+		<h3 class="text-center slideanim">My Portfolio</h3>
+		<p class="text-center slideanim">My Recent Projects , Just "Click" on them to know More.</p>
 		<section class="vertical" id="grid3d">
 				<div class="grid-wrap">
 					<div class="grid">
@@ -277,8 +276,11 @@
 							<div class="col-sm-12 form-group">
 								<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
 							</div>
+							<div class="col-sm-12 form-group">
+								<input class="form-control" id="subject" name="subject" placeholder="Subject" type="text" required>
+							</div>
 						</div>
-						<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+						<textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea><br>
 						<div class="row">
 							<div class="col-sm-12 form-group">
 								<button class="btn btn-default btn-lg" type="submit">Send <span class="glyphicon glyphicon-menu-right"></span></button>
@@ -324,9 +326,22 @@
 <!-- /footer -->	
 	<!-- js files -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ 	<!--<script src="js/jquery-3.1.1.min.js"></script>-->
 	<script src="js/bootstrap.min.js"></script>
 	<!-- js files for banner slider -->
 	<script src="js/responsiveslides.min.js"></script>
+ <script>
+	 $(function(){
+		 $(window).scroll(function() {
+			 if($(this).scrollTop() >= 290) {
+				 $('.navbar-collapse').addClass('stickytop');
+			 }
+			 else{
+				 $('.navbar-collapse').removeClass('stickytop');
+			 }
+		 });
+	 });
+ </script>
 	  <script>
     $(window).load(function() {
 

@@ -489,35 +489,44 @@ span.shortline5 {
 	line-height:25px;
 	font-weight:400;
 }
-input#name {
-	outline:none;
-	height:50px;
-    padding:10px;
-	border-radius:0px;
-	border-left: none;
-    border-top: none;
-    border-right: none;
-	border-bottom:2px solid black;
-}
-input#email {
+input#email, input#subject, input#name {
 	outline:none;
     margin: 4% auto;
 	padding:10px;
 	height:50px;
-	border-radius:0px;
-	border-left: none;
-    border-top: none;
-    border-right: none;
-	border-bottom:2px solid black;
+	border-radius:4px;
+    /*border-left: none;*/
+    /*border-top: none;*/
+    /*border-right: none;*/
+	border:2px solid #a60c19;
 }
+input#name:hover, input#email:hover, input#subject:hover {
+	border: 2px solid #00b3ee;
+
+}
+
+/*input#subject {*/
+	/*outline:none;*/
+	/*margin: 4% auto;*/
+	/*padding:10px;*/
+	/*height:50px;*/
+	/*border-radius:0px;*/
+	/*border-left: none;*/
+	/*border-top: none;*/
+	/*border-right: none;*/
+	/*border-bottom:2px solid black;*/
+/*}*/
 textarea.form-control {
     height: 140px;
 	outline:none;
-	border-radius:0px;
-	border-left: none;
-    border-top: none;
-    border-right: none;
-	border-bottom:2px solid black;
+	border-radius:4px;
+    /*border-left: none;*/
+    /*border-top: none;*/
+    /*border-right: none;*/
+	border:2px solid #a60c19;
+}
+textarea.form-control:hover {
+	border: 2px solid #00b3ee;
 }
 .form-control:focus {
     border-color:transparent;
