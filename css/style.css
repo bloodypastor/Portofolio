@@ -3,7 +3,7 @@
 body{
 	padding:0;
 	margin:0;
-	background:#FFF;
+	background: #fff;
 }
 body a{
     transition:0.5s all;
@@ -42,7 +42,7 @@ button{
 }
 /*--- end reset code ---*/
 body {
-	background: #bdccc7;
+	background: #222725;
 	font-family: 'Quicksand', sans-serif;
 }
 /*-- banner --*/
@@ -162,7 +162,7 @@ body {
 }
 /*-- /link-effect --*/
 .banner {
-	background:url(../images/me.jpg) no-repeat;
+	background:url(../images/cover.jpg) no-repeat;
 	background-position:center;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -236,7 +236,7 @@ body {
 	color: #000;
 }
 .social-icons a:hover {
-	color: #ee241f;
+	color: #fff;
 }
 
 span.line1 {
@@ -260,7 +260,7 @@ span.line2 {
 	margin:0 auto;
 }
 .about-me h3 {
-	color:#A1B3A4;
+	color:#ffffff;
 	font-size:30px;
 	font-family: 'Cinzel', serif;
 	line-height:25px;
@@ -271,10 +271,11 @@ img.img-responsive {
     margin: auto;
 }
 .mydetails , .myskills {
-	background-color: rgba(129, 224, 144, 0.14);
+	background-color: rgba(185, 163, 82, 0.51);
 }
 .mydetails {
 	padding:6.3em 0;
+	border-radius: 5px;
 }
 .mydetails h3 {
 	color:#000;
@@ -313,16 +314,18 @@ img.img-responsive {
 }
 .myskills {
 	padding:2em 0;
+	border-radius: 5px;
 }
 .myskills h3 {
-	color:#000;
+	color:#ffffff;
 	padding:25px;
 	font-family: 'Cinzel', serif;
 	font-size:25px;
 	line-height:25px;
 	font-weight:bold;
 }
-.myskills p {	
+.myskills p {
+	color: #ffffff;
 	padding:25px 37px;
 	font-size:17px;
 	line-height:25px;
@@ -339,6 +342,7 @@ img.img-responsive {
 	margin-left:6%;
 	font-family: 'Cinzel', serif;
 	font-size:18px;
+	color:#000;
 	line-height:25px;
 	font-weight:bold;
 }
@@ -349,7 +353,7 @@ span.longline1 {
 	width:267px;
 	height:2px;
 	display:inline-block;
-	background-color:#A1B3A4;
+	background-color:#000;
 	margin-top: 3%;
 }
 span.shortline1 {
@@ -360,56 +364,56 @@ span.shortline1 {
 	margin-top: 3%;
 }
 span.longline2 {
-	width:270px;
+	width:210px;
 	height:2px;
 	display:inline-block;
-	background-color:#A1B3A4;
+	background-color:#000;
 	margin-top: 3%;
 }
 span.shortline2 {
-	width:30px;
+	width:90px;
 	height:2px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
 }
 span.longline3 {
-	width:285px;
+	width:150px;
 	height:2px;
 	display:inline-block;
-	background-color:#A1B3A4;
+	background-color:#000;
 	margin-top: 3%;
 }
 span.shortline3 {
-	width:15px;
+	width:150px;
 	height:2px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
 }
 span.longline4 {
-	width:276px;
+	width:201px;
 	height:2px;
 	display:inline-block;
-	background-color:#A1B3A4;
+	background-color:#000;
 	margin-top: 3%;
 }
 span.shortline4 {
-	width:24px;
+	width:99px;
 	height:2px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
 }
 span.longline5 {
-	width:288px;
+	width:216px;
 	height:2px;
 	display:inline-block;
-	background-color:#A1B3A4;
+	background-color:#000;
 	margin-top: 3%;
 }
 span.shortline5 {
-	width:12px;
+	width:84px;
 	height:2px;
 	display:inline-block;
 	background-color:#fff;
