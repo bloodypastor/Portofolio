@@ -160,6 +160,10 @@ body {
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
 }
+.link-effect {
+	margin-top: 5px;
+	margin-right: -125px;
+}
 /*-- /link-effect --*/
 .banner {
 	background:url(../images/cover.jpg) no-repeat;
@@ -173,7 +177,18 @@ body {
 /*-- slider --*/
 .banner .rslides {
 	height:925px;
-} 
+}
+.navbar-brand {
+	margin-top: 5px;
+}
+.nav>li {
+	padding-right: 25px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 21px;
+}
+
 .rslides {
 	position: relative;
 	list-style: none;
