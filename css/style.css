@@ -42,7 +42,7 @@ button{
 }
 /*--- end reset code ---*/
 body {
-	background: #222725;
+	background: rgba(0, 0, 0, 0.86);;
 	font-family: 'Quicksand', sans-serif;
 }
 /*-- banner --*/
@@ -91,6 +91,10 @@ body {
     color: #FFFFFF;
     font-size: 1.2em;
     font-weight: normal;
+}
+.navbar-nav {
+	background-color: rgba(90, 93, 97, 0.47);
+	border-radius: 10px;
 }
 @media (min-width: 768px) {
 	.navbar-wrapper {
@@ -180,6 +184,11 @@ body {
 }
 .navbar-brand {
 	margin-top: 5px;
+
+}
+.navbar-brand {
+	font-size: 38px;
+	margin-left: -150px;
 }
 .nav>li {
 	padding-right: 25px;
@@ -243,15 +252,15 @@ body {
 	margin: 0;
 }
 .social-icons {
-	font-size: 23px;
+	font-size: 25px;
     margin: 2% auto;
 }
 .social-icons a {
 	margin-right: 10px;
-	color: #000;
+	color: #fff;
 }
 .social-icons a:hover {
-	color: #fff;
+	color: #000;
 }
 
 span.line1 {
@@ -286,10 +295,10 @@ img.img-responsive {
     margin: auto;
 }
 .mydetails , .myskills {
-	background-color: rgba(185, 163, 82, 0.51);
+	background-color: rgba(255, 255, 255, 0.59);
 }
 .mydetails {
-	padding:6.3em 0;
+	padding:6.0em 0;
 	border-radius: 5px;
 }
 .mydetails h3 {
@@ -441,7 +450,7 @@ span.shortline5 {
 	margin:0 auto;
 }
 .myportfolio h3 {
-	color:#A1B3A4;
+	color:#fff;
 	font-size:30px;
 	font-family: 'Cinzel', serif;
 	line-height:25px;
@@ -450,7 +459,8 @@ span.shortline5 {
 }
 .myportfolio p {
 	padding: 5px 0 15px;
-	font-size:17px;
+	font-size:19px;
+	color:#fff;
 	line-height:25px;
 	font-weight:400;
 }
@@ -461,7 +471,7 @@ span.shortline5 {
 	margin:0 auto;
 }
 .mygallery h3 {
-	color:#A1B3A4;
+	color:#fff;
 	font-size:30px;
 	font-family: 'Cinzel', serif;
 	line-height:25px;
@@ -495,12 +505,12 @@ span.shortline5 {
 	margin:0 auto;
 }
 .contact-me h3 {
-	color:#A1B3A4;
+	color:#fff;
 	font-size:30px;
 	font-family: 'Cinzel', serif;
 	line-height:25px;
 	font-weight:bold;
-	padding: 80px 0 20px;
+	padding: 80px 0 55px;
 }
 .contact-me p {
 	padding:5px 0 60px;
@@ -573,6 +583,7 @@ textarea.form-control:hover {
 }
 .contact-info h4 {
 	font-family: 'Cinzel', serif;
+	color: #fff;
 	font-size:20px;
 	line-height:25px;
 	font-weight:bold;
@@ -582,7 +593,7 @@ textarea.form-control:hover {
     font-size: 17px;
     line-height: 25px;
     font-weight: 400;
-	color:#000;
+	color:#fff;
 }
 .footer-info i{
 	color:#A1B3A4;
@@ -593,24 +604,24 @@ textarea.form-control:hover {
 p.p1{
 	padding:0;
 	display: inline-block;
-	color: #000;
+	color: #fff;
 	vertical-align: middle;
-	    margin: -50px 0 0;
+	    margin: -12px 0 0;
 	font-size:16px;
 	font-weight: 500;
 }
 p.p2 {
 	padding:0;
 	display:block;
-	color: #000;
+	color: #fff;
 	vertical-align: middle;
 	font-weight: 500;
 	font-size:16px;
-	margin: -27px 0 0 80px;
+	margin: -30px 0 0 74px;
 }
 p.p1 a {
 	text-decoration:none;
-	color:#000;
+	color:#fff;
 }
 p.p1 a:hover {
 	color:#A1B3A4;
@@ -628,6 +639,9 @@ p.p2 a:hover {
     line-height: 25px;
     font-weight: bold;
 	padding: 2em 0 0 .3em;
+}
+.mail{
+	margin-top: -2px
 }
 hr{
 	border-top:1px solid #BDB8B8;
