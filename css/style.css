@@ -42,7 +42,7 @@ button{
 }
 /*--- end reset code ---*/
 body {
-	background: rgba(0, 0, 0, 0.86);;
+	background: rgb(47, 46, 45);
 	font-family: 'Quicksand', sans-serif;
 }
 /*-- banner --*/
@@ -252,6 +252,7 @@ body {
 	margin: 0;
 }
 .social-icons {
+	text-align: center;
 	font-size: 25px;
     margin: 2% auto;
 }
@@ -527,7 +528,7 @@ input#email, input#subject, input#name {
     /*border-left: none;*/
     /*border-top: none;*/
     /*border-right: none;*/
-	border:2px solid #a60c19;
+	border:2px solid #000;
 }
 input#name:hover, input#email:hover, input#subject:hover {
 	border: 2px solid #00b3ee;
@@ -552,7 +553,7 @@ textarea.form-control {
     /*border-left: none;*/
     /*border-top: none;*/
     /*border-right: none;*/
-	border:2px solid #a60c19;
+	border:2px solid #000;
 }
 textarea.form-control:hover {
 	border: 2px solid #00b3ee;
@@ -652,10 +653,10 @@ hr{
 	color:#8C8C8C;
 }
 .copyright p{
-	color:#8C8C8C;
+	color: #a9a9a9;
 	padding: 5px 0 17px;
-	font-weight:400;
-	font-size:15px;
+	font-weight: 500;
+	font-size: 18px;
 }
 footer span.glyphicon.glyphicon-chevron-up {
 	margin: 0 0 0 50%;
